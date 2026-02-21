@@ -37,6 +37,8 @@ python3 examples/snake.py bob
 
 **Controls:** Arrow keys / WASD to move, Q to quit, R to respawn when dead.
 
+![Snake](assets/snake.gif)
+
 ### 2. Game of Life
 
 Conway's Game of Life. The entire simulation (birth, death, survival) runs inside Dragonfly. The client renders the universe using braille characters for high-resolution output.
