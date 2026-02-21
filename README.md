@@ -1,4 +1,4 @@
-# dragonfly-for-fun
+# Dragonfly for fun
 
 Games & Demos powered by [Dragonfly](https://www.dragonflydb.io/) Lua scripting.
 
@@ -47,6 +47,8 @@ python3 examples/game_of_life.py
 
 Press `Ctrl+C` to stop.
 
+![Game of Life](assets/game_of_life.gif)
+
 ### 3. Doom Fire
 
 The classic DOOM PSX fire effect. Fire physics are computed inside Dragonfly and rendered with true-color ANSI output.
@@ -57,14 +59,16 @@ python3 examples/doom_fire.py
 
 Press `Ctrl+C` to stop.
 
+![Doom Fire](assets/doom_fire.gif)
+
 ## Connecting to a remote Dragonfly instance
 
 All examples accept optional host and port arguments:
 
 ```bash
-python3 examples/snake.py alice 192.168.1.10 6380
-python3 examples/game_of_life.py 192.168.1.10 6380
-python3 examples/doom_fire.py 192.168.1.10 6380
+python3 examples/snake.py alice 192.168.1.10 6379
+python3 examples/game_of_life.py 192.168.1.10 6379
+python3 examples/doom_fire.py 192.168.1.10 6379
 ```
 
 ## License
